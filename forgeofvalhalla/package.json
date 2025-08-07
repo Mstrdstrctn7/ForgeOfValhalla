@@ -8,10 +8,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.53.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< Updated upstream
     "react-router-dom": "^6.23.0",
     "@supabase/supabase-js": "^2.39.4"
+=======
+    "react-router-dom": "^7.7.1"
+>>>>>>> Stashed changes
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
