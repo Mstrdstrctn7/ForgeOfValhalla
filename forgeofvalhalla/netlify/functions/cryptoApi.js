@@ -1,3 +1,5 @@
+// netlify/functions/cryptoApi.js
+
 const crypto = require('crypto')
 const axios = require('axios')
 
@@ -16,8 +18,8 @@ exports.handler = async (event) => {
     }
   }
 
-  const timestamp = Math.floor(Date.now() / 1000)
-  const requestPath = `/v2/${path}`
+  const timestamp = Math.floor(Date.now() * 1000)
+
   const payload = {
     id: timestamp,
     method,
